@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/kontak','C_kontak@index');
+Route::get('/kontak/{id}','C_kontak@show');
+Route::post('/kontak/store','C_kontak@store');
+Route::post('/kontak/update/{id}','C_kontak@update');
+Route::post('/kontak/delete/{id}','C_kontak@destroy');
