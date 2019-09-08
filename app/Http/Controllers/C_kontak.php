@@ -34,6 +34,7 @@ class C_kontak extends Controller
     public function create()
     {
         //
+        return view('create');
     }
 
     /**
