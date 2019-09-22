@@ -10,12 +10,11 @@
 	<br/>
 	<br/>
  
-	<form action="/kontak/store" method="post">
+	<form action="http://assessment.nibblesoftworks.com/rest_api_test_webservice/api/1.0/candidate/edit.php" method="post">
 		{{ csrf_field() }}
-		Nama <input type="text" name="nama" id="nama" required="required"> <br/>
 		Email <input type="email" name="email" id="email" required="required"> <br/>
-		No HP <input type=text name="nohp" id="nohp" required="required"> <br/>
-		Alamat <textarea name="alamat" id="alamat" required="required"></textarea> <br/>
+		Random Key <input type="text" name="random_key" id="random_key" required="required"> <br/>
+		Proud of <input type="text" name="proud_of" id="proud_of" required="required"> <br/>
 		<input type="submit" value="Simpan">
 	</form>
  
